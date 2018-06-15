@@ -9,7 +9,7 @@ RUN pip install Pillow \
   vincent \
   patsy \
   Pillow \
-  tensorflow == 1.5.0
+  tensorflow==1.5.0
 
 
 #  apt-get update \
