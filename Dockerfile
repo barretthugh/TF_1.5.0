@@ -9,7 +9,9 @@ RUN pip install Pillow \
   vincent \
   patsy \
   Pillow \
-  tensorflow==1.5.0
+  unidecode \
+  tensorflow==1.5.0 \
+    && git@github.com:barretthugh/nstools.git
 
 
 #  apt-get update \
