@@ -3,7 +3,7 @@ FROM barretthugh/py3jupyter
 RUN pip install Pillow \
   h5py \
   scipy \
-  keras \
+  keras==2.1.6 \
   scikit-image \
   statsmodels \
   vincent \
